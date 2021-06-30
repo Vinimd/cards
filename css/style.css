@@ -1,0 +1,193 @@
+:root{
+    --border-radios:0.5rem;
+}
+body{
+    background-color: #f0f0ee;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+header h1{
+    font-size: 2rem;
+    color:darkgray;
+    padding-bottom: 1rem;
+}
+header h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+header p{
+    color: darkgray;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.big__box{
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 0 3rem 0 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big__box h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2rem 2rem 1rem 1rem;
+}
+.big__box p{
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    color: darkgray;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.supervisor{
+    height: 30vh;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: var(--border-radios);
+    
+}
+.line__supervisor{
+    height: 0.2rem;
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 98%;
+    background-color: #87cecd;
+    border-top-left-radius: var(--border-radios);
+    border-top-right-radius: var(--border-radios);
+}
+.super__img__box{
+    align-self: flex-end;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.double{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.team__builder{
+    height: 28vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: var(--border-radios);
+    
+}
+.line__team{
+    height: 0.2rem;
+    width: 98%;
+    margin: 0 auto;
+    background-color: #cb7272;
+    border-top-left-radius: var(--border-radios);
+    border-top-right-radius: var(--border-radios);
+}
+.team__img__box{
+    align-self: flex-end;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.karma{
+    height: 28vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: var(--border-radios); 
+}
+.line__karma{
+    height: 0.2rem;
+    width: 98%;
+    margin: 0 auto;
+    background-color: #f3c780;
+    border-top-left-radius: var(--border-radios);
+    border-top-right-radius: var(--border-radios);
+}
+.karma__img__box{
+    align-self: flex-end;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.calculator{
+    height: 30vh;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: var(--border-radios);
+}
+.line__calculator{
+    height: 0.2rem;
+    width: 98%;
+    margin: 0 auto;
+    background-color: #80c0f2;
+    border-top-left-radius: var(--border-radios);
+    border-top-right-radius: var(--border-radios);
+}
+.calculator__img__box{
+    align-self: flex-end;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:768px){
+    .big__box{
+        width: 100%;
+        height: 130vh;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .supervisor{
+        width: 100%;
+    }
+    .img__sup{
+        width: 69%;
+    }
+    .double{
+        width: 100%;
+    }
+    .team__builder{
+        width: 100%;
+    }
+    .img__team{
+        width: 69%;
+    }
+    .karma{
+        width: 100%;
+    }
+    .img__karma{
+        width: 69%;
+    }
+    .calculator{
+        width: 100%;
+    }
+    .img__cal{
+        width: 69%;
+    }
+}
